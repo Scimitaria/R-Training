@@ -5,7 +5,7 @@ library(crayon)
 # Given a non-negative number, return the square root rounded down to the nearest integer
 # eg given 17, the answer is 4
 # You ARE allowed to use the exponent operator ^ (eg 2^3 = 8)
-# You are NOT allowed to use sqrt()
+# You are NOT allowed to use sqrt(), but should in a real-world scenario
 
 # HINT:
 # you can construct an range of numbers with :
