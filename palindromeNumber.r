@@ -12,6 +12,7 @@ library(crayon)
 
 isPalindrome <- function(num){
     #your code here
+    return(FALSE)
 }
 
 # Test code #
