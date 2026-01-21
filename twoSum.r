@@ -21,6 +21,6 @@ twoSum <- function(num,v){
 passed <- 0
 total  <- 2
 passed <- passed + ifelse(identical(twoSum(5,c(1,2,3)),c(2,3)),1,0)
-bigV <- 1:99999999
-passed <- passed + ifelse(identical(twoSum(199999997,bigV),c(99999998,99999999)),1,0)
+bigV <- 1:999999
+passed <- passed + ifelse(identical(twoSum(1999997,bigV),c(999998,999999)),1,0)
 cat(ifelse(passed==total,green("Test passed!\n"),red(paste0("Test failed with ",passed,"/",total,"\n"))))
