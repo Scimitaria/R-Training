@@ -13,14 +13,14 @@ library(crayon)
 # eg 1:3 is the same as c(1,2,3)
 
 findRoot <- function(num){
-    #your code here
+    #Your code here
     return(-1)
 }
 
 # Test code #
 # no touchy
 passed <- 0
-total  <- 5
+total  <- 6
 passed <- passed + ifelse(findRoot(0)==0,1,0)
 passed <- passed + ifelse(findRoot(1)==1,1,0)
 passed <- passed + ifelse(findRoot(16)==4,1,0)
