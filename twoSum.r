@@ -1,3 +1,4 @@
+options(repos = "https://cran.rstudio.com")
 if(!require(crayon))install.packages("crayon")
 library(crayon)
 
